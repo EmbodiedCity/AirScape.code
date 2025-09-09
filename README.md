@@ -74,3 +74,6 @@ Below are examples of videos generated on the test set.
 | **14** |   <img src="assets/generated_example/12033_WebUAV3M_val_harvester_34_6.gif" width="100%"/>    |                                      The drone follows a combine harvester moving forward through a field, keeping the harvester in the center of its field of view while maintaining a steady altitude and camera angle.                                       |
 
 
+## Airscape Phase-2
+
+Open [phase2](https://github.com/EmbodiedCity/AirScape.code/edit/main/pahse2) to see more details.
