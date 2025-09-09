@@ -76,4 +76,4 @@ Below are examples of videos generated on the test set.
 
 ## Airscape Phase-2
 
-Open [phase2](https://github.com/EmbodiedCity/AirScape.code/edit/main/pahse2) to see more details.
+Open [phase2](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2) to see more details.
