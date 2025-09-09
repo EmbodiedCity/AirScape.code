@@ -20,8 +20,10 @@ To get the trajectory similarity, we resorted to VGGT, the 3D-reconstruction mod
 
 ### Put all together
 
-Run 
+Run the following script
+
 `python best_selection\discriminator_model` 
+
 to generate the source data with all 5 metrics before training and inference.
 
 
@@ -31,15 +33,25 @@ We adopted isolation forest algorithm to get the outliers. In discriminator_mode
 
 Human-annotated labels should be added into the source CSV data when training as you can see in the `dataset.py`. 
 
-Run 
+Run the following script
+
 `python best_selection\discriminator_model\train\dataset.py` 
+
 and then the whole dataset will be splited into training set, validation set and test set according to the proportion of 6:1:1.
 
-At last, run 
+
+At last, run the following script
+
 `python best_selection\discriminator_model\train\train.py` 
+
 to simply get the trained model.
 
 ## 3. Best selection
 
 
-Finally, since we already get the CSV data that contains each video's 5 metrics as well as the trained model, we can use the model to select the best quality video in a tournament-like mode and feed the winner into the next self-play loop. Just run `python best_selection\discriminator_model\run_model.py`
+Finally, since we already get the CSV data that contains each video's 5 metrics as well as the trained model, we can use the model to select the best quality video in a tournament-like mode and feed the winner into the next self-play loop. 
+
+Just run the following script
+
+`python best_selection\discriminator_model\run_model.py`
+
