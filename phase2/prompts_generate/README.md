@@ -25,5 +25,8 @@ Specify the target video directory and output directory that stores the samples 
 We use gemini-2.5-flash/gpt-4o to generate prompts
 > Remember the api key is needed and the model can be chosen as you like
 
-Just use:
-`python prompts_generate.py`
+Just use the following script
+
+```
+python prompts_generate.py
+```
