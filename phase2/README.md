@@ -21,9 +21,13 @@ Open [prompts_generate](https://github.com/EmbodiedCity/AirScape.code/edit/main/
 
 Use phase-1 airscape to get outcomes based on different prompts and seeds, which boosts diversity that allows for foreseeable capbability for evolution.
 
+Open [inference](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/inference) to see more details.
+
 ### 3. Discriminator
 
 This discriminator acts as a MoE teacher that leads the model to get stronger.
+
+Open [discriminator](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/discriminator) to see more details.
 
 ## Usage
 
@@ -39,3 +43,4 @@ This discriminator acts as a MoE teacher that leads the model to get stronger.
 
 
 ## Acknowledgements
+
