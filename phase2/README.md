@@ -27,7 +27,7 @@ Open [inference](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/
 
 This discriminator acts as a MoE teacher that leads the model to get stronger.
 
-Open [discriminator](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/discriminator) to see more details.
+Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/best_selection) to see more details.
 
 ## Usage
 
@@ -43,4 +43,5 @@ Open [discriminator](https://github.com/EmbodiedCity/AirScape.code/edit/main/pha
 
 
 ## Acknowledgements
+
 
