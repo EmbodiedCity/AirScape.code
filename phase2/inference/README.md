@@ -1,3 +1,0 @@
-# Inference
-
-## Install dependencies
