@@ -18,7 +18,9 @@ pip install -r requirements_gemini.txt
 ## How to get frames
 
 Specify the target video directory and output directory that stores the samples framse, and use:
-`python get_random_frames.py`
+```
+python get_random_frames.py
+```
 
 ## How to generate prompts
 
@@ -30,3 +32,4 @@ Just use the following script
 ```
 python prompts_generate.py
 ```
+
