@@ -14,7 +14,7 @@ Since the heterogeneity of the development environments, you can see the depende
 
 ### Trajectory similarity metric
 
-To get the trajectory similarity, we resorted to VGGT, the 3D-reconstruction model. To see detailed infomation, go through [README.md](best_selection\traj_similarity_metric\README.md) in traj_similarity_metric directory.
+To get the trajectory similarity, we resorted to VGGT, the 3D-reconstruction model. To see detailed infomation, go through [README.md](best_selection/traj_similarity_metric/README.md) in traj_similarity_metric directory.
 
 ### Video quality metrics
 
@@ -62,5 +62,6 @@ Just run the following script
 ```
 python best_selection\discriminator_model\run_model.py
 ```
+
 
 
