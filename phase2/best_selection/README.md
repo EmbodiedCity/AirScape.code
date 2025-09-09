@@ -22,7 +22,9 @@ To get the trajectory similarity, we resorted to VGGT, the 3D-reconstruction mod
 
 Run the following script
 
-`python best_selection\discriminator_model` 
+```
+python best_selection\discriminator_model
+```
 
 to generate the source data with all 5 metrics before training and inference.
 
@@ -35,14 +37,18 @@ Human-annotated labels should be added into the source CSV data when training as
 
 Run the following script
 
-`python best_selection\discriminator_model\train\dataset.py` 
+```
+python best_selection\discriminator_model\train\dataset.py
+``` 
 
 and then the whole dataset will be splited into training set, validation set and test set according to the proportion of 6:1:1.
 
 
 At last, run the following script
 
-`python best_selection\discriminator_model\train\train.py` 
+```
+python best_selection\discriminator_model\train\train.py
+```
 
 to simply get the trained model.
 
@@ -53,5 +59,8 @@ Finally, since we already get the CSV data that contains each video's 5 metrics 
 
 Just run the following script
 
-`python best_selection\discriminator_model\run_model.py`
+```
+python best_selection\discriminator_model\run_model.py
+```
+
 
