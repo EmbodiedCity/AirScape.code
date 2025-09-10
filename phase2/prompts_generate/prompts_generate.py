@@ -55,9 +55,11 @@ def generate_prompts_for_image(image_path, num_prompts=8):
         return ["File not found"] * num_prompts
 
     prompt_text = f"""
-    You are an expert drone video script assistant for a world model that generates videos. Given a single drone shot frame, your task is to generate {num_prompts} distinct, high-quality, and structured video generation prompts. These prompts will serve as inputs to a world model.
+    You are an expert drone video script assistant for a world model that generates videos. Given a single drone shot frame, your task is to generate one base video generation prompt and {num_prompts} distinct, high-quality, and structured variables. These variables will serve as inputs to a world model.
 
-    The prompts should adhere to a specific format and include the following elements:
+    The base prompt should just basically describe the subject and the simple intention.
+    
+    The variables should adhere to a specific format and include the following elements:
     
     1.  **Drone's action**: Describe the drone's movement (e.g., forward, backward, left, right, up, down, rotation).
     2.  **Gimbal/Camera adjustment**: Detail how the camera's gimbal is adjusted (e.g., tilting up/down) and the camera's perspective (e.g., first-person, top-down).
@@ -76,6 +78,9 @@ def generate_prompts_for_image(image_path, num_prompts=8):
     -   The video is egocentric/first-person perspective, captured from a camera mounted on a drone. The drone moves forward while the camera gimbal adjusts to track the motion of a white car traveling along the road in a forward direction, ultimately reaching an intersection where the car turns to the left.
 
     The generated prompts should be clear and concise inputs for a video generation model.
+
+    Output each variable on a separate line, don't need to give me the base prompt. 
+    Without number like 1., 2.
     """
 
     for _ in range(len(API_KEYS)):
@@ -181,12 +186,12 @@ def generate_prompts_for_image(image_path, num_prompts=8):
 
     prompt_text = f"""
     You are an expert drone video script assistant for a world model that generates videos.
-    Given a single drone shot frame, your task is to generate {num_prompts} distinct,
-    and well-structured video generation prompts of high quality.
+    Given a single drone shot frame, your task is to generate one base video generation prompt and {num_prompts} distinct,
+    and well-structured variables of high quality.
 
-    Specifically, these batch of frames are all sampled at night scenarios, be careful when analyzing them because of the dark environment
+    The base prompt should just basically describe the subject and the simple intention.
 
-    The prompts should adhere to a specific format and include:
+    The variables should adhere to a specific format and include:
     1. Drone's action (movement direction, 6 degrees of translation freedom, and 2 degrees of rotation freedom)
     2. Gimbal/Camera adjustment (fixed angle, tilt up/down, perspective)
     3. Consice scene content (main objects, people, or landscape)
@@ -202,7 +207,7 @@ def generate_prompts_for_image(image_path, num_prompts=8):
     - The video is egocentric/first-person perspective, captured from a camera mounted on a drone. The drone descended vertically while tilting its camera gimbal upward slightly and ascended, capturing a top-down view of a rocky area with scattered structures, trees, and a blue dome-like object, reaching a stable hovering position at the end.
     - The video is egocentric/first-person perspective, captured from a camera mounted on a drone. The drone moves forward while the camera gimbal adjusts to track the motion of a white car traveling along the road in a forward direction, ultimately reaching an intersection where the car turns to the left.
 
-    Output each prompt on a separate line. 
+    Output each variable on a separate line, don't need to give me the base prompt. 
     Without number like 1., 2.
     """
 
@@ -253,3 +258,4 @@ def process_images_in_folder():
 if __name__ == "__main__":
     process_images_in_folder()
     sys.exit(0)
+
