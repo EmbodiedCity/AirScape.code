@@ -9,7 +9,7 @@ Enter each subfolders to see the exact dependencies needed.
 
 ## Self-play loop
 
-Our idea is to iteratively use this loop to let the model we get in phase-1 automatically improved based on the guidance from a MoE teacher.
+Our idea is to use rejection sampling and iteratively use the self-play training loop to let the model we get in phase-1 automatically improved based on the guidance from a MoE teacher.
 
 ### 1. Prompts generation
 
@@ -43,5 +43,6 @@ Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/ph
 
 
 ## Acknowledgements
+
 
 
