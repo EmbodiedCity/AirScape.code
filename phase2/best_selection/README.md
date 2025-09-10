@@ -28,6 +28,8 @@ python discriminator_model/prepare_csv_data.py
 
 to generate the source data with all 5 metrics before training and inference.
 
+> Note: in paper we combine imaging quality and aesthetic quality, thus producing 4 key features rather than the 5 features we use in discriminator
+
 
 ## 2. Training
 
@@ -62,6 +64,7 @@ Just run the following script
 ```
 python discriminator_model\run_model.py
 ```
+
 
 
 
