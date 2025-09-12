@@ -77,3 +77,21 @@ Below are examples of videos generated on the test set.
 ## Airscape Phase-2
 
 Open [phase2](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2) to see more details.
+
+## Citation
+```
+@inproceedings{zhao2025airscape,
+  author    = {Baining Zhao and Rongze Tang and Mingyuan Jia and Ziyou Wang and Fanhang Man and Xin Zhang and Yu Shang and Weichen Zhang and Wei Wu and Chen Gao and Xinlei Chen and Yong Li},
+  title     = {AirScape: An Aerial Generative World Model with Motion Controllability},
+  booktitle = {Proceedings of the 33rd ACM International Conference on Multimedia (MM '25)},
+  year      = {2025},
+  month     = {October},
+  pages     = {1--10},
+  address   = {Dublin, Ireland},
+  publisher = {ACM},
+  location  = {New York, NY, USA},
+  doi       = {10.1145/3746027.3758180},
+  url       = {https://doi.org/10.1145/3746027.3758180}
+}
+
+```
