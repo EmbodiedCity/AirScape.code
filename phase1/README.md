@@ -71,7 +71,7 @@ These weights can be used either as initialization for training or directly for 
 If you don’t want to train, you can directly download a *phase1 checkpoint* and use it for inference (this corresponds to the `-t` argument in `inference.sh`):
 
 ```bash
-huggingface-cli download EmbodiedCity/Airscape phase1-model phase1.ckpt --local-dir ./checkpoints
+huggingface-cli download EmbodiedCity/Airscape --local-dir ./checkpoints
 ```
 
 Now you can specify it in inference with:
