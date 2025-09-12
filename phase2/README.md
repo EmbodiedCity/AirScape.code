@@ -2,12 +2,12 @@
 
 Here we provide the overall outline on how Airscape's phase-2 training is carried out and how it should be used.
 
-## Installation
+## 🔧 Installation
 
 Enter each subfolders to see the exact dependencies needed.
 
 
-## Self-play loop
+## ➰ Self-play loop
 
 Our idea is to use rejection sampling and iteratively use the self-play training loop to let the model we get in phase-1 automatically improved based on the guidance from a MoE teacher.
 
@@ -29,6 +29,7 @@ The details are basically same as the phase-1 code, just open [phase1](https://g
 This discriminator acts as a MoE teacher that leads the model to get stronger.
 
 Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/best_selection) to see more details.
+
 
 
 
