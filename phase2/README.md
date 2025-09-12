@@ -1,6 +1,6 @@
 # Phase-2
 
-Here we provide the detailed instruction on how Airscape's phase-2 training is carried out and how it should be used.
+Here we provide the overall outline on how Airscape's phase-2 training is carried out and how it should be used.
 
 ## Installation
 
@@ -30,9 +30,6 @@ This discriminator acts as a MoE teacher that leads the model to get stronger.
 
 Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/best_selection) to see more details.
 
-## Usage
-
-
 
 ## Contributing
 
@@ -44,6 +41,7 @@ Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/ph
 
 
 ## Acknowledgements
+
 
 
 
