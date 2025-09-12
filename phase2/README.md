@@ -31,18 +31,6 @@ This discriminator acts as a MoE teacher that leads the model to get stronger.
 Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/best_selection) to see more details.
 
 
-## Contributing
-
-
-
-## License
-
-
-
-
-## Acknowledgements
-
-
 
 
 
