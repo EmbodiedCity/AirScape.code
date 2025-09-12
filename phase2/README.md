@@ -23,7 +23,6 @@ Use phase-1 airscape to get outcomes based on different prompts and seeds, which
 
 The details are basically same as the phase-1 code, just open [phase1](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase1) to learn more about its trainin and usage.
 
-Open [inference](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/inference) to see more details.
 
 ### 3. Discriminator
 
@@ -45,6 +44,7 @@ Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/ph
 
 
 ## Acknowledgements
+
 
 
 
