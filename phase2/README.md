@@ -21,7 +21,7 @@ Open [prompts_generate](https://github.com/EmbodiedCity/AirScape.code/edit/main/
 
 Use phase-1 airscape to get outcomes based on different prompts and seeds, which boosts diversity that allows for foreseeable capbability for evolution.
 
-The details are basically same as the phase-1 code, just open [phase1](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase1) to learn more about its trainin and usage.
+The details can be found in [inference](https://github.com/EmbodiedCity/AirScape.code/tree/main/phase2/inference), which are basically same as the phase-1 code. You can also open [phase1](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase1) to learn more about the trainin and usage.
 
 
 ### 3. Discriminator
@@ -29,6 +29,7 @@ The details are basically same as the phase-1 code, just open [phase1](https://g
 This discriminator acts as a MoE teacher that leads the model to get stronger.
 
 Open [best_selection](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2/best_selection) to see more details.
+
 
 
 
