@@ -18,6 +18,8 @@ To get the trajectory similarity, we resorted to VGGT, the 3D-reconstruction mod
 
 ### Video quality metrics
 
+Use comprehensive video quality evaluation system based on VBench metrics, designed for the AirScape.code project. This module provides both single-process and parallel evaluation capabilities for assessing video quality across four key dimensions.
+
 ### Put all together
 
 Run the following script
@@ -64,6 +66,7 @@ Just run the following script
 ```
 python discriminator_model\run_model.py
 ```
+
 
 
 
