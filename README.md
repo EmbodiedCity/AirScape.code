@@ -88,7 +88,7 @@ Open [phase1](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase1) to
 Open [phase2](https://github.com/EmbodiedCity/AirScape.code/edit/main/phase2) to see more details of phase-2 training.
 
 <p align="center">
-  <img src="assets/method.jpg" alt="Cover" width="100%" />
+  <img src="assets/method.jpg" alt="Method" width="100%" />
 </p>
 
 ## Citation
